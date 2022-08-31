@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Photography services",
+    "secTex": "Nattylense",
+    "image": "/img/clients/nattylense_home_page.jpg",
+    "imageModal": "/img/clients/nattylense_show1.jpg",
+    "alt": "Image of landing page of the project.",
+    "slug": "/showcase/showcase-dark",
+    "url": "http://nattylense.com/nattylense_show1.jpg",
+    "technologies": "HTML5, CSS3, JS, Bootstrap, JQuery, PostgresQL"
+  },
+  {
+    "id": 2,
+    "title": "Self and animal care at Peru",
+    "secTex": "La Chosita Wellness Center",
+    "image": "/img/clients/chositawellnesscenter.jpg",
+    "imageModal": "/img/clients/chosita_show1.jpg",
+    "alt": "Image of landing page of the project.",
+    "slug": "/showcase/showcase-dark",
+    "url": "http://www.lachositawellnesscenter.com/",
+    "technologies": "HTML5, CSS3, JS, Bootstrap, JQuery, PostgresQL"
+  },
+  {
+    "id": 3,
+    "title": "Dev Foundation",
+    "secTex": "Ramachandra Dass Foundation",
+    "image": "/img/clients/ramachandra.jpg",
+    "imageModal": "/img/clients/rama_show2.jpg",
+    "alt": "Image of landing page of the project.",
+    "slug": "/showcase/showcase-dark",
+    "url": "http://ramachandra.co/",
+    "technologies": "HTML5, CSS3, JS, Bootstrap, JQuery, PostgresQL"
+  },
+  {
+    "id": 4,
+    "title": "Esotericism, magic, plants, and connection with your inner soul",
+    "secTex": "Soul Magic",
+    "image": "/img/clients/soul-magic.jpg",
+    "imageModal": "/img/clients/soul-magic-show2.jpg",
+    "alt": "Image of landing page of the project.",
+    "slug": "/showcase/showcase-dark",
+    "url": "https://soul-magic-53e04.web.app/",
+    "technologies": "HTML5, CSS3, JS, Bootstrap, JQuery, PostgresQL"
+  },
+  {
+    "id": 5,
+    "title": "Hostel and volunteering at Peru",
+    "secTex": "Nanasqa Hostel",
+    "image": "/img/clients/nanasqa.jpg",
+    "imageModal": "/img/clients/nanasqa_show1.jpg",
+    "alt": "Image of landing page of the project.",
+    "slug": "/showcase/showcase-dark",
+    "url": "http://nanasqa.com/",
+    "technologies": "HTML5, CSS3, JS, Bootstrap, JQuery, PostgresQL"
+  }
+]

@@ -6,9 +6,9 @@ import "./components/heroSection/heroSection";
 import "./components/navbar/navbar";
 import "./components/split";
 
-import "./Pages/about/about";
-import "./Pages/home/homePage";
-import "./Pages/notFoundPage/404";
+import "./pages/about/about";
+import "./pages/home/homePage";
+import "./pages/notFoundPage/404";
 
 import "./common/getSiblings";
 import "./common/handleDropdown";
@@ -18,3 +18,5 @@ import "./config/particle-config";
 import "./config/pr-s-black";
 
 import "./js/splitting.min";
+
+import "./data/works.json";

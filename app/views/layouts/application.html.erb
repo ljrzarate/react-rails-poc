@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ReactRailsPoc</title>
+    <title>Fcking Brand Me</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
+    <script id="wow" src="/js/wow.min.js"></script>
+    <script strategy="beforeInteractive" id="splitting" src="/js/splitting.min.js"></script>
+    <script id="simpleParallax" src="/js/simpleParallax.min.js"></script>
+    <script id="isotope" strategy="beforeInteractive" src="/js/isotope.pkgd.min.js"></script>
+    <script id="wowInit" strategy="lazyOnload">{`new WOW().init();`}</script>
+
   </head>
 
   <body>

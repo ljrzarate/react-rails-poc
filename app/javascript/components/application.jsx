@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import HomePage from "../Pages/home/homePage";
+import HomePage from "../pages/home/homePage";
 
 const App = () => {
   const [posts, setPosts] = React.useState([]);

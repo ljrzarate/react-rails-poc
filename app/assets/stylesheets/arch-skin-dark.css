@@ -94,7 +94,7 @@ p {
     overflow: auto;
     background: #262626;
     text-align: center;
-    padding:0;
+    padding: 0;
   }
 
   .nav-scroll .navbar-collapse .active,
