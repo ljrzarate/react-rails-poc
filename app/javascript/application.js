@@ -2,9 +2,12 @@
 import "@hotwired/turbo-rails";
 
 import "./components/application";
-import "./components/heroSection/heroSection";
-import "./components/navbar/navbar";
+// import "./components/heroSection/heroSection";
+// import "./components/navbar/navbar";
 import "./components/split";
+import "./components/showcaseClient/showcaseClient";
+// import "./components/testimonials/fullTestimonials";
+import "./components/works/works";
 
 import "./pages/about/about";
 import "./pages/home/homePage";
@@ -19,4 +22,4 @@ import "./config/pr-s-black";
 
 import "./js/splitting.min";
 
-import "./data/works.json";
+// import "./data/works.json";

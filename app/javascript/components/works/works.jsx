@@ -1,8 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-import worksData from "../../data/works.json";
+// import worksData from "../../data/works.json";
 import ShowcaseClient from "../showcaseClient/showcaseClient";
+// import images from "../images/images";
+import nanasqa from "../../../assets/images/nanasqa_show1_ljrz.jpg";
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
@@ -35,6 +37,14 @@ const Works = () => {
   };
 
   const ContentWorksData = () => {
+    const imageSource =
+      "<%= ApplicationController.helpers.asset_path('nanasqa_show1_ljrz.jpg') %>";
+    // const imageSource =
+    //   "<%= ApplicationController.helpers.asset_path('nanasqa_show1.jpg') %>";
+    // const imageSource =
+    //   "<%= ApplicationController.helpers.asset_path({images.nattylense}) %>";
+    // const imageSource =
+    // "<%= asset_path('../../../assets/images/nanasqa_show1_ljrz.jpg')";
     return (
       <Swiper
         className="swiper-wrapper"
@@ -83,7 +93,25 @@ const Works = () => {
           },
         }}
       >
-        {worksData.map((work, index) => (
+        <SwiperSlide className="swiper-slide" onClick={openModal} key={1}>
+          <div className="content">
+            <div className="img">
+              <span className="imgio">
+                <span className="wow cimgio" data-delay="500"></span>
+                <img
+                  src={imageSource}
+                  alt="Image of landing page of the project."
+                />
+              </span>
+            </div>
+
+            <div className="cont">
+              <h6>Photography services</h6>
+              <h4>Nattylense</h4>
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* {worksData.map((work, index) => (
           <SwiperSlide className="swiper-slide" onClick={openModal} key={index}>
             <div className="content">
               <div className="img">
@@ -99,7 +127,7 @@ const Works = () => {
               </div>
             </div>
           </SwiperSlide>
-        ))}
+        ))} */}
       </Swiper>
     );
   };

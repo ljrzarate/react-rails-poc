@@ -1,15 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import handleMobileDropdown from "../../common/handleMobileDropdown";
+// import { handleMobileDropdown } from "../../common/handleMobileDropdown";
 
-const NavBar = () => {
+const Navbar = ({ lr, nr }) => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav ref={nr} className="navbar navbar-expand-lg change">
       <div className="container">
-        <a href="/" className="logo">
-          <img
-            src="./../../../assets/images/logo/logo-dark.png"
-            alt="FBM's logo"
-          />
+        <a className="logo">
+          <img ref={lr} src="../../assets/img/logo/logo-dark.png" alt="logo" />
         </a>
 
         <button
@@ -48,4 +46,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
